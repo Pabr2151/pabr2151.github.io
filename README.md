@@ -27,7 +27,7 @@
 
 ## Weekly Assignments
 
-###### * [WA1](https://github.com/Pabr2151/pabr2151.github.io).
+###### * [WA1](https://github.com/Pabr2151/pabr2151/wa/wa1.html.github.io).
 ###### * WA2
 ###### * WA3
 ###### * WA4
