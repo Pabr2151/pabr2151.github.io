@@ -14,7 +14,7 @@
 ###### * [ICA3](ica/ICA2.pdf).
 ###### * [ICA4](ica/ICA4.html).
 ###### * [ICA5](ica/ica5.html).
-###### * ICA6
+###### * [ICA6](ica/ica6/ica6-part1.html).
 ###### * ICA7
 ###### * ICA8
 ###### * ICA9
@@ -31,7 +31,7 @@
 ###### * [WA2](wa/wa2.html).
 ###### * [WA3](wa/wa3.html).
 ###### * [WA4](wa/wa4.html).
-###### * WA5
+###### * [WA5](wa/wa5.html).
 ###### * WA6
 ###### * WA7
 ###### * WA8
