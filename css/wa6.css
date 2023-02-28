@@ -3,7 +3,7 @@
 .col-3 {width: 33.33%}
 
 @media only screen and (max-width: 900px) {
-    
+
   [class*="col-"] {
     width: 100%;
   }
@@ -63,7 +63,7 @@ body {
   
   .photos {
     float: flex;
-    padding-left: 30px;
+    padding-left: 60px;
 
   }
 
