@@ -1,0 +1,41 @@
+body{
+    background-color: khaki;
+}
+.box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+}
+
+.box1:hover{
+   background-color: blueviolet;
+}
+
+.box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-name: box2move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box2move {
+    0% {
+        transform: translate(-50%, -50%);
+      }
+      25% {
+        transform: translate(-50%, -50%) translateX(-100px);
+      }
+      50% {
+        transform: translate(-50%, -50%) translateY(-100px);
+      }
+      75% {
+        transform: translate(-50%, -50%) translateX(100px);
+      }
+      100% {
+        transform: translate(-50%, -50%);
+      }
+}
