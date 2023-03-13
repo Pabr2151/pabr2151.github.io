@@ -1,0 +1,346 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 97, 97);
+    font-family: 'Staatliches', cursive;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    height: 10px;
+    width: 200px;
+}
+
+nav a{
+    width:5vw;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    line-height: 50px;
+    padding-left: 90px;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    width: 37%;
+}
+
+h1{
+    width: 15vw;
+    color: rgb(230, 230, 230);
+    padding-left: 70px;
+    padding-top: 28px;
+}
+
+h2{
+    color: rgb(174, 174, 174);
+    font-size: 18px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    text-align: center;
+}
+
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    width: 20%;
+}
+
+.resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    text-align: center;
+    border: 5px solid rgb(33, 33, 33);
+    border-style:double;
+    border-radius: 30px;
+}
+
+.aboutMe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    width: 50%;
+    color: rgb(173, 173, 173);
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.socials{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    font-size:20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 35%;
+}
+
+.img4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 70%;
+    border:5px solid white;
+}
+
+
+
+/* max screen width 768px */
+@media screen and (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(102, 97, 97);
+        font-family: 'Staatliches', cursive;
+    }
+    
+    nav{
+        height: 10vh;
+        display:flex;
+        flex-direction: column;
+        height: 10px;
+        width: 100%;
+    }
+    
+    nav a{
+        width:25%;
+        text-align: left;
+        text-decoration: none;
+        color: rgb(228, 228, 228);
+        line-height: 50px;
+        padding-left: 20px;
+    }
+    
+    .img1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        width: 70%;
+    }
+    
+    h1{
+        width: 50%;
+        color: rgb(230, 230, 230);
+        padding-left: 20px;
+        padding-top: 28px;
+    }
+    
+    h2{
+        color: rgb(174, 174, 174);
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    h3{
+        color: rgb(230, 230, 230);
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        width: 50%;
+    }
+    
+    .resume{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 90%;
+        color: rgb(230, 230, 230);
+        font-size: 12px;
+        text-align: center;
+        border: 2px solid rgb(33, 33, 33);
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .aboutMe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        width: 90%;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    
+    .socials{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        font-size:14px;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        width: 60%;
+    }
+    
+    .img4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 90%;
+        border:2px solid white;
+    }
+    
+}
+
+
+
+/* min screen width 769 */
+@media screen and (min-width: 769px){
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(102, 97, 97);
+        font-family: 'Staatliches', cursive;
+    }
+    
+    nav{
+        height: 50vh;
+        display:flex;
+        flex-direction: column;
+        height: 10px;
+        width: 200px;
+    }
+    
+    nav a{
+        width:5vw;
+        text-align: left;
+        text-decoration: none;
+        color: rgb(228, 228, 228);
+        line-height: 50px;
+        padding-left: 90px;
+    }
+    
+    .img1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        width: 37%;
+    }
+    
+    h1{
+        width: 15vw;
+        color: rgb(230, 230, 230);
+        padding-left: 70px;
+        padding-top: 28px;
+    }
+    
+    h2{
+        color: rgb(174, 174, 174);
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    h3{
+        color: rgb(230, 230, 230);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        width: 20%;
+    }
+    
+    .resume{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 50%;
+        color: rgb(230, 230, 230);
+        font-size: 15px;
+        text-align: center;
+        border: 5px solid rgb(33, 33, 33);
+        border-style:double;
+        border-radius: 30px;
+    }
+    
+    .aboutMe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        width: 50%;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    
+    .socials{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        font-size:20px;
+        text-align: center;
+        line-height: 40px;
+    }
+    
+    .img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        width: 35%;
+    }
+    
+    .img4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 70%;
+        border:5px solid white;
+    }
+}
