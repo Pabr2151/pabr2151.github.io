@@ -11,13 +11,13 @@
 
 ###### * [ICA1](ica/ICA1.pdf).
 ###### * [ICA2](ica/ICA2.pdf).
-###### * [ICA3](ica/ICA2.pdf).
+###### * [ICA3](ica).
 ###### * [ICA4](ica/ICA4.html).
 ###### * [ICA5](ica/ica5.html).
 ###### * [ICA6](ica/ica6/ica6-part1.html).
-###### * [ICA7](ica/ica7.html).
-###### * ICA8
-###### * ICA9
+###### * [ICA7](ica).
+###### * [ICA8](ica).
+###### * [ICA9](ica).
 ###### * ICA10
 ###### * ICA11
 ###### * ICA12
@@ -33,9 +33,9 @@
 ###### * [WA4](wa/wa4.html).
 ###### * [WA5](wa/wa5.html).
 ###### * [WA6](wa/wa6/wa6.html).
-###### * WA7
-###### * WA8
-###### * WA9
+###### * [WA7](wa/wa7.html).
+###### * [WA8](wa).
+###### * [WA9](wa/wa9.html).
 ###### * WA10
 ###### * WA11
 ###### * WA12
