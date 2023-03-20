@@ -3,8 +3,8 @@
 
 ## Projects
 
-###### * HTML
-###### * CSS
+###### * [HTML](html-midterm/page1.html).
+###### * [CSS](index.html).
 ###### * JS
 
 ## In-Class Assignments
