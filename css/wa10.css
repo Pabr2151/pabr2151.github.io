@@ -1,15 +1,17 @@
-h1 {
+h1{
   text-align: center;
+  color: white;
 }
 
-body {
+body{
   background-color: rgb(102, 97, 97);
   font-family: 'Staatliches', cursive;
 }
 
-.container {
+.full-img{
   display: block;
   margin: auto;
+  padding-left: 100px;
 }
 
 .overlay {
@@ -19,21 +21,21 @@ body {
   width: 5000px;
   height: 5000px;
   background-color: rgba(0,0,0,0);
-  color: white;
 }
 
-button {
+button{
   border: 0;
   background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
-  top: 100px;
-  left: 25px;
+  top: 125px;
+  left: 140px;
 }
 
-.thumb-bar img {
+
+.thumb-bar img{
   display: block;
   width: 20%;
   float: left;

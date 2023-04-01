@@ -5,7 +5,7 @@ const imageAlt = {
   'img3.jpg': 'JID',
   'img4.jpg': 'Suddenly',
   'img5.jpg': 'STRFKR'
-};
+}
 
 const thumbBar = document.querySelector('.thumb-bar');
 const displayedImg = document.querySelector('.displayed-img');
@@ -24,15 +24,14 @@ for (let i = 0; i < imageFilenames.length; i++) {
   }
   
 
-darkenBtn.addEventListener('click', function() {
-  if (darkenBtn.getAttribute('class') === 'dark') {
-    darkenBtn.setAttribute('class', 'light');
-    darkenBtn.textContent = 'Lighten';
-    overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
-  } else {
-    darkenBtn.setAttribute('class', 'dark');
-    darkenBtn.textContent = 'Darken';
-    overlay.style.backgroundColor = 'rgba(0,0,0,0)';
-  }
-});
-
+  darkenBtn.addEventListener('click', function() {
+    if (darkenBtn.getAttribute('class') === 'dark') {
+      darkenBtn.setAttribute('class', 'light');
+      darkenBtn.textContent = 'Lighten';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    } else {
+      darkenBtn.setAttribute('class', 'dark');
+      darkenBtn.textContent = 'Darken';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+    }
+  });
