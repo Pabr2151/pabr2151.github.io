@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Volume Slider</title>
 
     <link rel="stylesheet" href="/css/wa13.css">
     <script defer src="/js/wa13.js"></script>
 </head>
 <body>
-
+    <div> 
+        <p>Please select the volume you'd like.</p>
+        <p class="output">50</p>
+    </div>
+    <div> <!-- plus/minus volume changer --> 
+        <form>
+            <input class="minus-button" type ="button" name="minus_button" value ="MINUS"></input>
+            <input class="plus-button" type ="button" name="plus_button" value ="PLUS"></input>
+            <input class="reset-button" type ="button" name="reset_button" value ="RESET"></input>
+            <input class="random-button" type ="button" name="random_button" value ="RANDOM"></input>
+            <input class="submit-button" type ="button" name="submit_button" value ="SUBMIT"></input>
+        </form>
+    </div>
+    <div><!--this is the slider-->
+        <p>Please select the volume you'd like.</p>
+        <input type="range" min="0" max="100" class="slider"></input>
+        <input class="slider-submit-button" type ="button" name="slider_submit_button" value ="SUBMIT"></input>
+        <p class ="slider-output"></p>
+    </div>
 </body>
 </html>

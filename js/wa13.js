@@ -3,7 +3,7 @@ function check() {
 }
 
 function submit() {
-    alert(output.textContent);
+    alert('YOUR VOLUME IS NOW: ' + output.textContent);
 }
 
 function reset() {
