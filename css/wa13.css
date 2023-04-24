@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003d08;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 420px;
+    background-image: url('https://www.123stitch.com/pictures/original/FRA9798.jpg');
+    background-color: rgb(4, 87, 11);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+.output {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: bold;
+    color: #ac711e;
+    text-shadow: 2px 2px #000;
+  }
+  
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+input[type="button"] {
+    background-color: #ac711e;
+    color: rgb(95, 67, 0);
+    font-size: 1.2rem;
+    padding: 13px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+input[type="range"] {
+    display: none;
+  }
+  
