@@ -22,7 +22,7 @@
 ###### * [ICA11](ica/ica11.html).
 ###### * [ICA12](ica).
 ###### * [ICA13](wa/wa13.html).
-###### * ICA14
+###### * [ICA14](ica).
 ###### * ICA15
 
 ## Weekly Assignments
@@ -39,7 +39,7 @@
 ###### * [WA10](wa/wa10.html).
 ###### * [WA11](wa/wa11.html).
 ###### * [WA12](wa/wa12.html).
-###### * WA13
-###### * WA14
+###### * [WA13](wa/wa13.html).
+###### * [WA14](wa/wa14.html).
 ###### * WA15
 
