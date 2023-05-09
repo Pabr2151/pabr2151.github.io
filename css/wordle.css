@@ -4,7 +4,8 @@
 
 body{
 	font-family: "Poppins", sans-serif;
-    background-color:rgba(37, 0, 0, 0.535);
+    background-color:rgb(45, 50, 58);
+    color: white;
 }
 
 .game-container{
