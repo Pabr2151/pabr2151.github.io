@@ -31,21 +31,27 @@ function checkGuess(){
 }
 
 function updateLetters(guess){
-	let letters = answer.split("");
-	let guessLetters = guess.split("");
-	
-	for(let i = 0; i < letters.length; i++){
-		let letterDiv = document.getElementById(`letter${i+1}`);
+        let letters = answer.split("");
+        let guessLetters = guess.split("");
 
-		if(guessLetters.includes(letters[i])){
-			letterDiv.style.backgroundColor = "#4CAF50";
-			letterDiv.innerHTML = letters[i].toUpperCase();
-		} 
-        else{
-			letterDiv.style.backgroundColor = "#ccc";
-			letterDiv.innerHTML = "";
-		}
-	}
+        for(let i = 0; i < letters.length; i++){
+                let letterDiv = document.getElementById(`letter${i+1}`);
+                let guessChar = guessLetters[i];
+
+                if(guessChar === letters[i]){
+                        // correct letter and position
+                        letterDiv.style.backgroundColor = "#4CAF50";
+                        letterDiv.innerHTML = guessChar.toUpperCase();
+                } else if(letters.includes(guessChar)){
+                        // correct letter, wrong position
+                        letterDiv.style.backgroundColor = "#FFC107";
+                        letterDiv.innerHTML = guessChar.toUpperCase();
+                } else {
+                        // letter not in answer
+                        letterDiv.style.backgroundColor = "#ccc";
+                        letterDiv.innerHTML = guessChar ? guessChar.toUpperCase() : "";
+                }
+        }
 }
 
 function showMessage(message){
